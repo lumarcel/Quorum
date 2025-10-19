@@ -26,7 +26,7 @@ apiClient.interceptors.response.use(
 
 export const legislativeDataService = {
 getLegislatorStatistics: async () => {
-  const response = await apiClient.get('/legislators/statistics');
+  const response = await apiClient.get('/quorum/statistics');
   return response.data;
 },
 
