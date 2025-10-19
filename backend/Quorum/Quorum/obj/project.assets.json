@@ -453,9 +453,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum\\Quorum.csproj",
-      "projectName": "Quorum",
-      "projectPath": "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum\\Quorum.csproj",
+      "projectUniqueName": "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum\\Quorum.Api.csproj",
+      "projectName": "Quorum.Api",
+      "projectPath": "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum\\Quorum.Api.csproj",
       "packagesPath": "C:\\Users\\Luan\\.nuget\\packages\\",
       "outputPath": "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum\\obj\\",
       "projectStyle": "PackageReference",
