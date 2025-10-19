@@ -1,12 +1,13 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
 using Quorum.Domain.Entities;
+using Quorum.Infrastructure.Interfaces;
 using System.Globalization;
 using static LegislativeData.Infrastructure.Repositories.CsvModels;
 
 namespace Quorum.Infrastructure.Repositories
 {
-    class CsvLegislativeDataRepository
+    public class CsvQuorumDataRepository : IQuorumDataRepository
     {
         private readonly string _dataPath;
         private List<Legislator>? _legislators;
@@ -14,7 +15,7 @@ namespace Quorum.Infrastructure.Repositories
         private List<Vote>? _votes;
         private List<VoteResult>? _voteResults;
 
-        public CsvLegislativeDataRepository(string dataPath)
+        public CsvQuorumDataRepository(string dataPath) 
         {
             _dataPath = dataPath;
         }

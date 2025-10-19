@@ -1,0 +1,12 @@
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\bin\Debug\net8.0\Quorum.Domain.deps.json
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\bin\Debug\net8.0\Quorum.Domain.dll
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\bin\Debug\net8.0\Quorum.Domain.pdb
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\obj\Debug\net8.0\Quorum.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\obj\Debug\net8.0\Quorum.Domain.AssemblyInfoInputs.cache
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\obj\Debug\net8.0\Quorum.Domain.AssemblyInfo.cs
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\obj\Debug\net8.0\Quorum.Domain.csproj.CoreCompileInputs.cache
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\obj\Debug\net8.0\Quorum.Domain.sourcelink.json
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\obj\Debug\net8.0\Quorum.Domain.dll
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\obj\Debug\net8.0\refint\Quorum.Domain.dll
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\obj\Debug\net8.0\Quorum.Domain.pdb
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Domain\obj\Debug\net8.0\ref\Quorum.Domain.dll

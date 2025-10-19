@@ -1,0 +1,16 @@
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\bin\Debug\net8.0\Quorum.Infrastructure.deps.json
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\bin\Debug\net8.0\Quorum.Infrastructure.dll
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\bin\Debug\net8.0\Quorum.Infrastructure.pdb
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\bin\Debug\net8.0\Quorum.Domain.dll
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\bin\Debug\net8.0\Quorum.Domain.pdb
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\Quorum.Infrastructure.csproj.AssemblyReference.cache
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\Quorum.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\Quorum.Infrastructure.AssemblyInfoInputs.cache
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\Quorum.Infrastructure.AssemblyInfo.cs
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\Quorum.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\Quorum.Infrastructure.sourcelink.json
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\Quorum.I.09BF404E.Up2Date
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\Quorum.Infrastructure.dll
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\refint\Quorum.Infrastructure.dll
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\Quorum.Infrastructure.pdb
+E:\Projetos\Quorum\Quorum\backend\Quorum\Quorum.Infrastructure\obj\Debug\net8.0\ref\Quorum.Infrastructure.dll

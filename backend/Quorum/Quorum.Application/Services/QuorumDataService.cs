@@ -1,15 +1,15 @@
 ﻿using Quorum.Application.DTOs;
-using Quorum.Application.Interfaces;
 using Quorum.Application.Services.Interfaces;
 using Quorum.Domain.Entities;
+using Quorum.Infrastructure.Interfaces;
 
 namespace Quorum.Application.Services
 {
-    public class LegislativeDataService : ILegislativeDataService
+    public class QuorumDataService : IQuorumDataService
     {
-        private readonly ILegislativeDataRepository _repository;
+        private readonly IQuorumDataRepository _repository;
 
-        public LegislativeDataService(ILegislativeDataRepository repository)
+        public QuorumDataService(IQuorumDataRepository repository)
         {
             _repository = repository;
         }

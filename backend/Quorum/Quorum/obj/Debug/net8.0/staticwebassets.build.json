@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "8M1mcgTPNCqifh9daAbQ7h3iQK/q96NWQgZpISeQzWc=",
+  "Source": "Quorum.Api",
+  "BasePath": "_content/Quorum.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

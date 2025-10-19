@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quorum.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fff99d514758a69f0f90d0689e2f1673e76cef2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28ce524f3f462037e8f1af830af9e2aa24ea26c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quorum.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quorum.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

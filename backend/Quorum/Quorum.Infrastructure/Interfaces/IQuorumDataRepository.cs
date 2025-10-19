@@ -1,8 +1,8 @@
 ﻿using Quorum.Domain.Entities;
 
-namespace Quorum.Application.Interfaces
+namespace Quorum.Infrastructure.Interfaces
 {
-    public interface ILegislativeDataRepository
+    public interface IQuorumDataRepository
     {
         Task<IEnumerable<Legislator>> GetAllLegislatorsAsync();
         Task<IEnumerable<Bill>> GetAllBillsAsync();

@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "CsvHelper/33.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -88,10 +101,74 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Quorum.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Quorum.Domain": "1.0.0",
+          "Quorum.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Quorum.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Quorum.Application.dll": {}
+        }
+      },
+      "Quorum.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Quorum.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Quorum.Domain.dll": {}
+        }
+      },
+      "Quorum.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CsvHelper": "33.1.0",
+          "Quorum.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Quorum.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Quorum.Infrastructure.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "CsvHelper/33.1.0": {
+      "sha512": "kqfTOZGrn7NarNeXgjh86JcpTHUoeQDMB8t9NVa/ZtlSYiV1rxfRnQ49WaJsob4AiGrbK0XDzpyKkBwai4F8eg==",
+      "type": "package",
+      "path": "csvhelper/33.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.33.1.0.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net462/CsvHelper.dll",
+        "lib/net462/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net48/CsvHelper.dll",
+        "lib/net48/CsvHelper.xml",
+        "lib/net8.0/CsvHelper.dll",
+        "lib/net8.0/CsvHelper.xml",
+        "lib/net9.0/CsvHelper.dll",
+        "lib/net9.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "sha512": "Ckb5EDBUNJdFWyajfXzUIMRkhf52fHZOQuuZg/oiu8y7zDCVwD0iHhew6MnThjHmevanpxL3f5ci2TtHQEN6bw==",
       "type": "package",
@@ -439,10 +516,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Quorum.Application/1.0.0": {
+      "type": "project",
+      "path": "../Quorum.Application/Quorum.Application.csproj",
+      "msbuildProject": "../Quorum.Application/Quorum.Application.csproj"
+    },
+    "Quorum.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Quorum.Domain/Quorum.Domain.csproj",
+      "msbuildProject": "../Quorum.Domain/Quorum.Domain.csproj"
+    },
+    "Quorum.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Quorum.Infrastructure/Quorum.Infrastructure.csproj",
+      "msbuildProject": "../Quorum.Infrastructure/Quorum.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Quorum.Application >= 1.0.0",
+      "Quorum.Domain >= 1.0.0",
+      "Quorum.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -477,7 +572,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum.Application\\Quorum.Application.csproj": {
+              "projectPath": "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum.Application\\Quorum.Application.csproj"
+            },
+            "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum.Domain\\Quorum.Domain.csproj": {
+              "projectPath": "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum.Domain\\Quorum.Domain.csproj"
+            },
+            "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum.Infrastructure\\Quorum.Infrastructure.csproj": {
+              "projectPath": "E:\\Projetos\\Quorum\\Quorum\\backend\\Quorum\\Quorum.Infrastructure\\Quorum.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

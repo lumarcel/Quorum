@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Quorum.Domain\Quorum.Domain.csproj" />
+    <ProjectReference Include="..\Quorum.Infrastructure\Quorum.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

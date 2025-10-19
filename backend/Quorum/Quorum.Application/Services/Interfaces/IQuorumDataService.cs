@@ -2,7 +2,7 @@
 
 namespace Quorum.Application.Services.Interfaces
 {
-    public interface ILegislativeDataService
+    public interface IQuorumDataService
     {
         Task<IEnumerable<LegislatorStatisticsDto>> GetLegislatorStatisticsAsync();
         Task<IEnumerable<BillStatisticsDto>> GetBillStatisticsAsync();

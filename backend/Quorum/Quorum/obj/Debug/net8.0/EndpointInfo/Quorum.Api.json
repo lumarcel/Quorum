@@ -1,0 +1,45 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Legislative Data API",
+    "description": "API for accessing legislative data including bills, legislators, and voting records",
+    "contact": {
+      "name": "Quorum",
+      "email": "info@quorum.us"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Bills/statistics": {
+      "get": {
+        "tags": [
+          "Bills"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api/Quorum/statistics": {
+      "get": {
+        "tags": [
+          "Quorum"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
