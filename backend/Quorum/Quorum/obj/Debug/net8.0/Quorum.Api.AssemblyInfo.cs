@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quorum.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28ce524f3f462037e8f1af830af9e2aa24ea26c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b289e469cf7888892a5e5e0a3b198318ef05c7d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quorum.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quorum.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
