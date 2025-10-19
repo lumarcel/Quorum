@@ -7,11 +7,9 @@ using Quorum.Infrastructure.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
-// Configure Swagger
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
@@ -34,7 +32,6 @@ builder.Services.AddSwaggerGen(c =>
     }
 });
 
-// Configure CORS
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -45,7 +42,6 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Register application services
 var dataPath = builder.Configuration.GetValue<string>("DataPath")
   ?? Path.Combine(Directory.GetCurrentDirectory(), "Data");
 
@@ -56,7 +52,6 @@ builder.Services.AddScoped<IQuorumDataService, QuorumDataService>();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

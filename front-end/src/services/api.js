@@ -9,13 +9,11 @@ headers: {
 },
 });
 
-// Request interceptor for error handling
 apiClient.interceptors.request.use(
 (config) => config,
 (error) => Promise.reject(error)
 );
 
-// Response interceptor for error handling
 apiClient.interceptors.response.use(
 (response) => response,
 (error) => {
